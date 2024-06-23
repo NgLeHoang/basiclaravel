@@ -10,4 +10,9 @@ use App\Models\User;
 class PropertyType extends Model
 {
     use HasFactory; 
+
+    protected $fillable = [
+        'type_name',
+        'type_icon'
+    ];
 }
