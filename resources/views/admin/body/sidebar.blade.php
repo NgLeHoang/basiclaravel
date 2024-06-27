@@ -99,6 +99,12 @@
                         <li class="nav-item">
                             <a href="{{ route('all.role') }}" class="nav-link">All Role</a>
                         </li>
+                        <li class="nav-item">
+                            <a href="{{ route('add.role.permission') }}" class="nav-link">Role in Permission</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('all.role.permission') }}" class="nav-link">All Role in Permission</a>
+                        </li>
                     </ul>
                 </div>
             </li>
